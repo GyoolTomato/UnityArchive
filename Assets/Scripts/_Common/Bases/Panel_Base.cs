@@ -14,6 +14,46 @@ public class Panel_Base : MonoBehaviour
     /// <summary>
     /// 
     /// </summary>
+    protected virtual void Awake()
+    {
+
+    }
+
+    /// <summary>
+    /// 
+    /// </summary>
+    protected virtual void OnShowPanel()
+    {
+
+    }
+
+    /// <summary>
+    /// 
+    /// </summary>
+    protected virtual void OnHidePanel()
+    {
+
+    }
+
+    /// <summary>
+    /// 
+    /// </summary>
+    public void Show()
+    {
+
+    }
+
+    /// <summary>
+    /// 
+    /// </summary>
+    public void Hide()
+    {
+
+    }
+
+    /// <summary>
+    /// 
+    /// </summary>
     protected virtual void Tick()
     {
 

@@ -25,11 +25,13 @@ public enum EGameState
 
 public enum EPanelType
 {
-
     None,
+    Main,
 }
 
 public enum EItemType
 {
     None,
+    Crystal,
+    Gold,
 }

@@ -7,8 +7,9 @@ using UnityEngine.UIElements;
 public class Com_Slots<T> : Com_Base where T : Com_Base
 {
     //
-    [SerializeField] ScrollView    _scrollView = null;
-    [SerializeField] RectTransform _container  = null;
+    [SerializeField] ScrollView    _scrollView   = null;
+    [SerializeField] RectTransform _container    = null;
+    [SerializeField] T             _createObject = null;
 
     //
     Stack<T> _slotPool = new Stack<T>();
