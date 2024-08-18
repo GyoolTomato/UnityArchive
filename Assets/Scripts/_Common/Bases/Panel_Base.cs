@@ -7,8 +7,8 @@ using UnityEngine.UI;
 public class Panel_Base : MonoBehaviour
 {
     //
-    public EPanelType pPanelType {private set; get; } = EPanelType.None;
-    public bool pIsShow { private set; get; } = false;
+    public EPanelType pPanelType {protected set; get; } = EPanelType.None;
+    public bool pIsShow { set; get; } = false;
 
 
     /// <summary>

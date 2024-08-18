@@ -1,13 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
+using System;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
+using UnityEngine.ResourceManagement.AsyncOperations;
 
 public static class Manager_UI
 {
     //
     static List<Panel_Base> _panels = new List<Panel_Base>();
 
+    //
+    public static AssetReference SpawnablePrefab;
+
     ///<summary>
+    ///
     ///</summary>
     public static Panel_Base GetPanel(EPanelType panelType)
     {
@@ -23,6 +30,7 @@ public static class Manager_UI
     }
 
     ///<summary>
+    ///
     ///</summary>
     public static Panel_Base ShowPanel(EPanelType panelType)
     {
@@ -38,4 +46,6 @@ public static class Manager_UI
         //
         return panel;
     }
+
+    
 }

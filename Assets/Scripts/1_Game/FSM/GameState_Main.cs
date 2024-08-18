@@ -18,6 +18,7 @@ public class GameState_Main : SceneState
     {
         var panel = Manager_UI.ShowPanel(EPanelType.None) as Panel_Main;
         panel.Init();
+        
     }
 
     //

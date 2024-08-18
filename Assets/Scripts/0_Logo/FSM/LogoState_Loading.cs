@@ -18,6 +18,7 @@ public class LogoState_Loading : SceneState
     public void Enter()
     {
         _logoScene.ChangeGameScene();
+        Manager_Addressable.Init();
     }
 
     //
